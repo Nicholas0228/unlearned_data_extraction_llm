@@ -9,10 +9,9 @@ The core implementation can be found in `MUSE/evaluate_util.py`, particularly th
 We follow most of the dependencies used in TOFU. To set up the environment:
 
 ```bash
-conda create -n tofu python=3.10
-conda activate tofu
-conda install pytorch pytorch-cuda=11.8 -c pytorch -c nvidia
-conda install -c "nvidia/label/cuda-11.8.0" cuda-toolkit
+conda create -n tofu1 python=3.10
+conda activate tofu1
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 pip install -r requirements.txt
 pip install flash-attn --no-build-isolation
 ```
