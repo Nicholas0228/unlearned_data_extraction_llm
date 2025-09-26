@@ -1,4 +1,4 @@
-# Breaking the Gold Standard: Extracting Forgotten Data under Exact Unlearning in Large Language Models
+# Rethinking Exact Unlearning under Exposure: Extracting Forgotten Data under Exact Unlearning in Large Language Models
 
 This repository provides the implementation of our algorithm for extracting unlearned data from large language models (LLMs) using guidance-based methods. The code is built primarily upon the [TOFU repository](https://github.com/locuslab/tofu) and includes data from [MUSE](https://muse-bench.github.io).
 
@@ -43,3 +43,15 @@ python read_final_res.py
 
 This script outputs a comparison between the pre- and post-unlearning models, along with the performance of our extraction method.
 
+
+## Citation:
+If you find our work valuable and utilize it, we kindly request that you cite our paper.
+
+```
+@article{wu2025breaking,
+  title={Breaking the Gold Standard: Extracting Forgotten Data under Exact Unlearning in Large Language Models},
+  author={Wu, Xiaoyu and Pang, Yifei and Liu, Terrance and Wu, Zhiwei Steven},
+  journal={arXiv preprint arXiv:2505.24379},
+  year={2025}
+}
+```
