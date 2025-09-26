@@ -1,8 +1,13 @@
 # Rethinking Exact Unlearning under Exposure: Extracting Forgotten Data under Exact Unlearning in Large Language Models
+          
+> Xiaoyu Wu, Yifei Pang, Terrance Liu, Zhiwei Steven Wu    
+> *NeurIPS 2025 ([arXiv 2505.24379](https://arxiv.org/pdf/2505.24379))*  
 
 This repository provides the implementation of our algorithm for extracting unlearned data from large language models (LLMs) using guidance-based methods. The code is built primarily upon the [TOFU repository](https://github.com/locuslab/tofu) and includes data from [MUSE](https://muse-bench.github.io).
 
 The core implementation can be found in `MUSE/evaluate_util.py`, particularly the `contrasting_generation` function.
+
+
 
 ## Requirements
 
