@@ -1,4 +1,4 @@
-# Rethinking Exact Unlearning under Exposure: Extracting Forgotten Data under Exact Unlearning in Large Language Models
+# Unlearned but Not Forgotten: Data Extraction after Exact Unlearning in LLM
           
 > Xiaoyu Wu, Yifei Pang, Terrance Liu, Zhiwei Steven Wu    
 > *NeurIPS 2025 ([arXiv 2505.24379](https://arxiv.org/pdf/2505.24379))*  
